@@ -58,7 +58,7 @@ class ImageDownloader:
 def test():
     gmap_key  = ""
 
-    latitude, longitude = 47.61950703, 8.210134303
+    latitude, longitude = 52.382076, -1.547266
     map_size = 200 # meter
 
     downloader = ImageDownloader(gmap_key, map_size)
